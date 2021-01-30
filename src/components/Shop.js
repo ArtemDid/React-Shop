@@ -5,7 +5,6 @@ import { CreateActionSetBuyProd, CreateActionSetSumma } from '../actions/actions
 import store from '../store/store';
 
 class Shop extends React.Component {
-    //TO-DO: create Local Storage
 
     getProd(prod) {
 
