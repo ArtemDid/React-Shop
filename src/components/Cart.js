@@ -4,6 +4,7 @@ import store from '../store/store';
 class Cart extends React.Component {
 
     render() {
+         //TO-DO: create Local Storage
 
         let masBanana = store.getState().buyProd.filter(item => item === store.getState().type[0]);
         let masApple = store.getState().buyProd.filter(item => item === store.getState().type[1]);
